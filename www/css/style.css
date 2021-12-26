@@ -1,0 +1,112 @@
+/**/
+
+.bar{
+  text-align: center;
+  width: 100%;
+  height:10%;
+  background-color: #00ffea;
+  position:fixed;	
+	top:0;
+  left: 0; /* 左を基準 */
+  /* これを%指定などで可変にする。またはJavaScriptで値を変化させる。 */
+}
+.bar p {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  
+}
+
+
+
+.btn-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  text-decoration:none;
+  left: 17%;
+  top: 15%;
+  position: absolute;
+}
+
+.btn-1 {
+  text-decoration: none;
+  background-color: rgb(231, 230, 230);
+  border-radius: 32px;
+  font-size: 19px;
+  padding: 8% 30%;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.btn-2{
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(255, 0, 0);
+  border-radius: 32px;
+  font-size: 16px;
+  padding: 8% 30px;
+  font-weight: bold;
+}
+.btn-3{
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  color: rgb(9, 156, 29);
+  border-radius: 32px;
+  font-size: 16px;
+  padding: 10% 30px;
+  font-weight: bold;
+}
+
+.table{
+   width: 100%;
+  height:100%;
+}
+.home{
+  font-size: 18px;
+  font-weight: bold;
+  width: 25%;
+  height:10%;
+  color: rgb(0, 0, 0);
+  background-color: #eebfb0;
+  text-align: center;
+  position: fixed; /* 固定配置*/
+  bottom: 0; /* 下を基準 */
+  left: 0; /* 左を基準 */
+}
+
+.medicine{
+  font-size: 18px;
+  font-weight: bold;
+  width: 25%;
+  height:10%;
+  color: rgb(0, 0, 0);
+  background-color: #9ecdfa;
+  text-align: center;
+  position: fixed; /* 固定配置 */
+  bottom: 0; /* 下を基準 */
+  left: 25%; /* 左を基準 */
+}
+.item{
+  font-size: 18px;
+  font-weight: bold;
+  width: 25%;
+  height:10%;
+  color: rgb(0, 0, 0);
+  background-color: #bbfac9;
+  text-align: center;
+  position: fixed; /* 固定配置 */
+  bottom: 0; /* 下を基準 */
+  left: 50%; /* 左を基準 */
+}
+.comf{
+  font-size: 18px;
+  font-weight: bold;
+  width: 25%;
+  height:10%;
+  color: rgb(0, 0, 0);
+  background-color: #feffb4;
+  text-align: center;
+  position: fixed; /* 固定配置 */
+  bottom: 0; /* 下を基準 */
+  left: 75%; /* 左を基準 */
+}
+

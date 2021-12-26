@@ -1,0 +1,55 @@
+/* This is a CSS file */
+
+
+
+.home{
+  font-size: 18px;
+  font-weight: bold;
+  width: 25%;
+  height:10%;
+  color: rgb(0, 0, 0);
+  background-color: #eebfb0;
+  text-align: center;
+  position: fixed; /* 固定配置*/
+bottom: 0; /* 下を基準 */
+  left: 0; /* 左を基準 */
+}
+
+.medicine{
+    font-size: 18px;
+  font-weight: bold;
+  width: 25%;
+  height:10%;
+  color: rgb(0, 0, 0);
+  background-color: #9ecdfa;
+  text-align: center;
+  position: fixed; /* 固定配置 */
+  bottom: 0; /* 下を基準 */
+  left: 25%; /* 左を基準 */
+}
+.item{
+    font-size: 18px;
+  font-weight: bold;
+  width: 25%;
+  height:10%;
+  color: rgb(0, 0, 0);
+  background-color: #bbfac9;
+  text-align: center;
+  position: fixed; /* 固定配置 */
+  bottom: 0; /* 下を基準 */
+  left: 50%; /* 左を基準 */
+}
+.comf{
+  font-size: 18px;
+  font-weight: bold;
+  width: 25%;
+  height:10%;
+  color: rgb(0, 0, 0);
+  background-color: #feffb4;
+  text-align: center;
+  position: fixed; /* 固定配置 */
+  bottom: 0; /* 下を基準 */
+  left: 75%; /* 左を基準 */
+}
+
+
